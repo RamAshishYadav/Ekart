@@ -7,6 +7,7 @@ pipeline {
     
     environment{
         SCANNER_HOME= tool 'sonar-scanner'
+        PATH = '/opt/apache-maven-3.6.3/bin:$PATH'
     }
     
     stages {
